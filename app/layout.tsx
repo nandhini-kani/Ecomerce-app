@@ -17,6 +17,7 @@ export default function RootLayout({
         <SessionProvider>
           <CartProvider>
             <WishlistProvider>{children}</WishlistProvider>
+                    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
           </CartProvider>
         </SessionProvider>
       </body>

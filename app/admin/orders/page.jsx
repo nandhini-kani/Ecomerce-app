@@ -1,6 +1,10 @@
-
+export const dynamic = "force-dynamic";
 import connectDB from "@/lib/mongodb";
 import Order from "@/models/Order";
+import User from "@/models/User";
+
+
+
 
 export default async function AdminOrdersPage() {
   await connectDB();
